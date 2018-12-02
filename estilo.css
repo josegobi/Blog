@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Hind, Sans-Serif;
+	color: rgb(50,50,50);
+}
+
+header{
+	background-color: red;
+	width: 100%;
+	height: 20vw;
+}
+
+#logo{
+	background-color: #FF00FF;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 50px;
+	top: 10px;
+}
+
+nav{
+	background-color: #00FA9A;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 100px;
+	top: 10px; 
+}
+
+#sobrebonsai{
+	background-color: yellow;
+	width: 100%;
+	height: 20vw;
+}
+
+#tipobonsai{
+	background-color: blue;
+	width: 100%;
+	height: 300px;
+}
+
+#curiosidades{
+	background-color: green;
+	width: 100%;
+	height: 300px;
+}
+
+#galeria{
+	background-color: red;
+	width: 100%;
+	height: 300px;
+}
+
+#sobremim{
+	background-color: yellow;
+	width: 100%;
+	height: 300px;
+}
+
+footer{
+	background-color: gray;
+	width: 100%;
+	height: 300px;
+}
+
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+   height: auto;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 1920px) {
+    header{
+	height: 30vw;
+	background-color: red;
+	}
+	#logo{
+		left: 40px;
+	}
+	nav{
+		left:90px;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+    header{
+	height: 30vw;
+	background-color: red;
+	}
+	#logo{
+		left: 30px;
+	}
+	nav{
+		left:80px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    header{
+	height: 40vw;
+	background-color: blue;
+	}
+	#logo{
+		left: 20px;
+	}
+	nav{
+		left:70px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    header{
+	height: 90vw;
+	background-color: green;
+	}
+	#logo{
+		left: 10px;
+	}
+	nav{
+		left:60px;
+	}
+	#tipobonsai{
+	height: 800px;
+	}
+	#galeria{
+	height: 800px;
+	}
+	#sobremim{
+	height: 500px;
+	}
+	#sobrebonsai{
+		height: 50vw;
+	}
+}
+
