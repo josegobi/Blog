@@ -701,3 +701,44 @@
 			}
 
 		}
+
+/* Footer */
+
+	#footer {
+		background-color: #3CB371	;
+		color: black;
+		padding: 4em 0 2em 0;
+		background: #3CB371	;
+	}
+
+
+		#footer .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+		}
+
+			@media screen and (max-width: 480px) {
+
+				#footer .inner {
+					max-width: 90%;
+					width: 90%;
+				}
+
+			}
+
+		@media screen and (max-width: 980px) {
+
+			#footer {
+				padding: 4em 0 2em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 2em 0 0.1em 0;
+			}
+
+		}
