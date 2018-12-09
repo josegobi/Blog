@@ -655,3 +655,49 @@
 			}
 
 		}
+
+	#especie {
+		padding: 6em 0 4em 0;
+		background: #f3f3f3;
+		}
+
+		#especie .inner {
+			display: flex;
+			flex-direction: row;
+		}
+
+			#especie .inner article {
+				width: 50%;
+			}
+
+				#especie .inner article:first-child {
+					padding-right: 6em;
+				}
+
+				#especie .inner article:last-child {
+					padding-left: 6em;
+				}
+
+		@media screen and (max-width: 980px) {
+
+			#especie {
+				padding: 4em 0 2em 0;
+				}
+
+				#especie .inner {
+					flex-direction: column;
+				}
+
+					#especie .inner article {
+						width: 100%;
+					}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#especie {
+				padding: 2em 0 0.1em 0;
+			}
+
+		}
