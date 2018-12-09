@@ -702,6 +702,31 @@
 
 		}
 
+/* Galeria */
+	#galeria{
+		padding: .5vw;
+		font-size: 0;
+		display: -ms-flexbox;
+		flex-flow: row wrap; 
+		display: -webkit-box;
+		display: flex;
+	}
+	
+	#galeria div { 
+		flex: auto; 
+		width: 200px; 
+		margin: .5vw; 	}	
+
+	#galeria div img { 
+		width: 100%; 
+		height: auto; 
+	}
+	
+	@media screen and (max-width: 400px) {
+		#galeria div { margin: 0; }
+		#galeria { padding: 0; }
+	}
+
 /* Footer */
 
 	#footer {
